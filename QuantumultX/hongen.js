@@ -23,7 +23,7 @@ MITM = bookapi.ihuman.com
 const path1 = "/v1/get_purchase_list";
 const path2 = "/v1/get_user_info";
 
-let key = {"expire_time":1695709555,"vip_type":1};
+let key = {"expire_time":1695709555,"vip_type":1,"pack_list":"1011"};
 
 let obj = JSON.parse($response.body);
 
