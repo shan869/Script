@@ -7,8 +7,6 @@ app 下载地址:https://t.cn/AiCEguqn
 电报群组：https://t.me/f4thorHCC
 QQ资源群：189519867
 QQ吹牛群：316864309
-,"last_product_id":"com.ihuman.book.sub.vip1y"
-0011
 
 QX:
 
@@ -24,7 +22,7 @@ MITM = bookapi.ihuman.com
 const path1 = "/v1/get_purchase_list";
 const path2 = "/v1/get_user_info";
 
-let key = {"expire_time":1695709555,"vip_type":1,"pack_list":0011};
+let key = {"expire_time":7955110875,"vip_type":1,"last_product_id":"com.ihuman.book.sub.vip1y"};
 
 let obj = JSON.parse($response.body);
 
