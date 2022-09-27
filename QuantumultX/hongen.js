@@ -34,7 +34,7 @@ if ($request.url.indexOf(path2) != -1){
 	obj.result.userinfo["vip_status"] = key;
 	
 if ($request.url.indexOf(path3) != -1){
-	obj.result.userinfo["vip_status"] = key;
+	obj.result.["vip_status"] = key;
 }
 
 
