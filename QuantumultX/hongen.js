@@ -28,7 +28,7 @@ const path2 = "/v1/get_user_info";
 const path3 = "/v1/get_vip_info";
 
 
-let key = {"expire_time":1695804705,"vip_type":1,"last_product_id":"com.ihuman.book.sub.vip1y","pack_list":[]};
+let key = {"vip_type":1,"expire_time":1695804705,"last_product_id":"com.ihuman.book.sub.vip1y","pack_list":[]};
 
 let obj = JSON.parse($response.body);
 
