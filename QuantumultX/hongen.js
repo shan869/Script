@@ -23,7 +23,7 @@ const path1 = "/v1/get_purchase_list";
 const path2 = "/v1/get_user_info";
 const path3 = "/v1/get_vip_info";
 
-let key = {"expire_time":7955110875,"vip_type":YEAD,"last_product_id":"com.ihuman.book.sub.vip1y"};
+let key = {"expire_time":7955110875,"vip_type":"YEAD","last_product_id":"com.ihuman.book.sub.vip1y"};
 
 let obj = JSON.parse($response.body);
 
