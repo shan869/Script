@@ -8,6 +8,10 @@ app 下载地址:https://t.cn/AiCEguqn
 QQ资源群：189519867
 QQ吹牛群：316864309
 
+
+
+
+
 QX:
 
 [rewrite_local]👇
@@ -24,7 +28,7 @@ const path2 = "/v1/get_user_info";
 const path3 = "/v1/get_vip_info";
 
 
-let key = {"expire_time":1695804705,"vip_type":1,"pack_list":["1"]};
+let key = {"vip_type":1,"expire_time":1695804705,"last_product_id":"com.ihuman.book.sub.vip1y","pack_list":[]};
 
 let obj = JSON.parse($response.body);
 
@@ -34,6 +38,7 @@ if ($request.url.indexOf(path1) != -1){
 if ($request.url.indexOf(path2) != -1){
 	obj.result.userinfo["vip_status"] = key;
 }	
+
 if ($request.url.indexOf(path3) != -1){
 	obj.result["vip_status"] = key;
 }
