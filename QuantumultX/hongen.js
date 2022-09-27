@@ -8,11 +8,8 @@ app 下载地址:https://t.cn/AiCEguqn
 QQ资源群：189519867
 QQ吹牛群：316864309
 
-const path3 = "/v1/get_vip_info";
 
-if ($request.url.indexOf(path3) != -1){
-	obj.result["vip_status"] = key;
-}
+
 
 
 QX:
@@ -28,7 +25,7 @@ MITM = bookapi.ihuman.com
 
 const path1 = "/v1/get_purchase_list";
 const path2 = "/v1/get_user_info";
-
+const path3 = "/v1/get_vip_info";
 
 
 let key = {"expire_time":1695804705,"vip_type":1,"last_product_id":"com.ihuman.book.sub.vip1y","pack_list":[]};
@@ -42,5 +39,8 @@ if ($request.url.indexOf(path2) != -1){
 	obj.result.userinfo["vip_status"] = key;
 }	
 
+if ($request.url.indexOf(path3) != -1){
+	obj.result["vip_status"] = key;
+}
 
 $done({body: JSON.stringify(obj)});
