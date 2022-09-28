@@ -46,7 +46,9 @@ if ($request.url.indexOf(path3) != -1){
 }
 
 if ($request.url.indexOf(path4) != -1){
-	obj.result.books_all["allow_guest"] = 1;
+for(var i = 0; i<books_all.length; i++){
+    var ob = books_all[i];
+    ob.allow_guest = 1;
 }
 
 
