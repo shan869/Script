@@ -53,7 +53,7 @@ for(var i = 0; i < obj.result.books_all.length; i++){
 	}
 	
 	
-    obj.result.free_bookids = "[\"0011\"]";
+    obj.result.free_bookids = "[\"*\"]";
 	
 }
 
