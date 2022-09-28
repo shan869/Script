@@ -9,7 +9,7 @@ QQ资源群：189519867
 QQ吹牛群：316864309
 
 
-
+888
 
 
 QX:
@@ -28,7 +28,7 @@ const path2 = "/v1/get_user_info";
 const path3 = "/v1/get_vip_info";
 
 
-let key = {"vip_type":1,"expire_time":1664532960,"last_product_id":"com.ihuman.book.sub.vip1m.triallw","pack_list":[]};
+let key = {"vip_type":2,"expire_time":1664532960,"last_product_id":"com.ihuman.book.sub.vip1m.trial1w","pack_list":[]};
 
 let obj = JSON.parse($response.body);
 
