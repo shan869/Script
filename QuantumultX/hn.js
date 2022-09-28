@@ -30,7 +30,7 @@ const path4 = "/v3/get_home_info";
 
 let key = {"vip_type":2,"expire_time":1664532960,"last_product_id":"com.ihuman.book.sub.vip1m.trial1w","pack_list":[]};
 
-let key2 = {"allow_guest":1};
+let key2 = 1;
 
 
 let obj = JSON.parse($response.body);
@@ -47,7 +47,7 @@ if ($request.url.indexOf(path3) != -1){
 }
 
 if ($request.url.indexOf(path4) != -1){
-	obj.result["vip_status"] = key2;
+	obj.result.books_all["allow_guest"] = key2;
 }
 
 
