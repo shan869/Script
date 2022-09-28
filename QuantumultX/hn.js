@@ -47,7 +47,7 @@ if ($request.url.indexOf(path3) != -1){
 }
 
 if ($request.url.indexOf(path4) != -1){
-	obj.result["books_all"] = key2;
+	obj.result["books_all"] = 1;
 }
 
 
