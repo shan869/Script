@@ -8,8 +8,7 @@ app 下载地址:https://t.cn/AiCEguqn
 QQ资源群：189519867
 QQ吹牛群：316864309
 
-2
-888
+3
 
 
 QX:
@@ -47,7 +46,7 @@ if ($request.url.indexOf(path3) != -1){
 }
 
 if ($request.url.indexOf(path4) != -1){
-	obj.result["books_all"] = 1;
+	obj.result.books_all["allow_guest"] = 1;
 }
 
 
