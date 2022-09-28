@@ -8,7 +8,7 @@ app 下载地址:https://t.cn/AiCEguqn
 QQ资源群：189519867
 QQ吹牛群：316864309
 
-111222
+11
 
 let key2 = {"allow_guest":1};
 QX:
@@ -54,7 +54,7 @@ for(var i = 0; i < obj.result.books_all.length; i++){
 	
 	
     obj.result.free_bookids = "[\"0011\"]";
-    obj.result.preface_price = 0;
+    obj.result.payments = 0;
 	
 }
 
