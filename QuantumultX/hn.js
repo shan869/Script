@@ -8,9 +8,9 @@ app 下载地址:https://t.cn/AiCEguqn
 QQ资源群：189519867
 QQ吹牛群：316864309
 
-1
+222
 
-
+let key2 = {"allow_guest":1};
 QX:
 
 [rewrite_local]👇
@@ -29,7 +29,7 @@ const path4 = "/v3/get_home_info";
 
 let key = {"vip_type":1,"expire_time":1664532960,"last_product_id":"com.ihuman.book.sub.vip1m.trial1w","pack_list":[]};
 
-let key2 = {"allow_guest":1};
+
 
 
 let obj = JSON.parse($response.body);
@@ -49,6 +49,7 @@ if ($request.url.indexOf(path4) != -1){
 for(var i = 0; i < obj.result.books_all.length; i++){
     var ob = obj.result.books_all[i];
     ob.allow_guest = 1;
+    ob.is_vip = 0;
 	}
 }
 
