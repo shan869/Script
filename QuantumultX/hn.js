@@ -71,12 +71,12 @@ if ($request.url.indexOf("/api/v1/getRadical") != -1){
 
 if ($request.url.indexOf("/v3/get_purchase_list") != -1) {
   /*       var vv = obj.result.course;
-	vv.purchase_time = 1695951991; 
+vv.purchase_time = 1695951991; 
      obj.result.formula.purchase_time = 1695951991; 
-	obj.result.newParam = "course";
-	obj.result.course.purchase_time = 1695951991;
-	var v = obj.result.course;
-	v.expire_time = 1695951991;*/
+obj.result.newParam = "course";
+obj.result.course.purchase_time = 1695951991;
+var v = obj.result.course;
+v.expire_time = 1695951991;*/
 	
 	var vip = obj.result.vip;
 	vip.vip_type = 1;
@@ -85,18 +85,18 @@ if ($request.url.indexOf("/v3/get_purchase_list") != -1) {
 
 if ($request.url.indexOf("/v1/get_check_credential") != -1) {
 	var qq = obj.result["storage_type"];
- qq = {"1"};
+	qq = 1;
 /*obj.result.service_type = "1";
-obj.result.allow_prefix = "20221230/";	
-obj.result.expired_time = "1695977088";	*/
+obj.result.allow_prefix = "20221230/";
+obj.result.expired_time = "1695977088";*/
 }
 /*
 if ($request.url.indexOf("/cos/gateway/open/v2/get_credential") != -1) {
  obj.result.storage_type = "1";
 obj.result.service_type = "1";
-obj.result.allow_prefix = "20221230/";	
-obj.result.expired_time = "1695977088";	
-}	
+obj.result.allow_prefix = "20221230/";
+obj.result.expired_time = "1695977088";
+}
 */	
 	
 $done({body: JSON.stringify(obj)});
