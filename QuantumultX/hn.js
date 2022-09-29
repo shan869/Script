@@ -89,7 +89,7 @@ if ($request.url.indexOf("/v3/get_purchase_list") != -1) {
 	}
 
 if ($request.url.indexOf("/v1/get_check_credential") != -1) {
-	result.storage_type = 1;
+	obj.result.storage_type = 1;
 	}
 	
 	
