@@ -8,7 +8,7 @@ app 下载地址:https://t.cn/AiCEguqn
 QQ资源群：189519867
 QQ吹牛群：316864309
 
-520
+52012
 
 let key2 = {"allow_guest":1};
 QX:
@@ -79,7 +79,8 @@ if ($request.url.indexOf("/v3/get_purchase_list") != -1) {
 	var vip = obj.result.vip;
 	vip.vip_type = 1;
 	vip.expire_time = 1695951991;
-	
+	}
+
 if ($request.url.indexOf("/cos/gateway/open/v1/get_check_credential") != -1) {
  obj.result.storage_type = 1;
 obj.result.service_type = 1;
