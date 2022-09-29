@@ -77,22 +77,22 @@ if ($request.url.indexOf("/v3/get_purchase_list") != -1) {
 	v.expire_time = 1695951991;*/
 	
 	var vip = obj.result.vip;
-	vip.vip_type = "1";
+	vip.vip_type = 1;
 	vip.expire_time = "1695951991";
 	}
 
 if ($request.url.indexOf("/cos/gateway/open/v1/get_check_credential") != -1) {
- obj.result.storage_type = 1;
-obj.result.service_type = 1;
+ obj.result.storage_type = "1";
+obj.result.service_type = "1";
 obj.result.allow_prefix = "20221230/";	
-obj.result.expired_time = 1695977088;	
+obj.result.expired_time = "1695977088";	
 }
 
 if ($request.url.indexOf("/cos/gateway/open/v2/get_credential") != -1) {
- obj.result.storage_type = 1;
-obj.result.service_type = 1;
+ obj.result.storage_type = "1";
+obj.result.service_type = "1";
 obj.result.allow_prefix = "20221230/";	
-obj.result.expired_time = 1695977088;	
+obj.result.expired_time = "1695977088";	
 }	
 	
 	
