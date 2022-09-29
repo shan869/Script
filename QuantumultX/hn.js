@@ -8,7 +8,7 @@ app 下载地址:https://t.cn/AiCEguqn
 QQ资源群：189519867
 QQ吹牛群：316864309
 
-555
+666
 
 let key2 = {"allow_guest":1};
 QX:
@@ -68,7 +68,7 @@ if ($request.url.indexOf("/api/v1/getRadical") != -1){
 }
 
 if ($request.url.indexOf("/v3/get_purchase_list") != -1) {
-	var vi = obj.result
+	var vi = obj.result;
 	vi.course.purchase_time: 1695951991;
 	vi.formula.purchase_time: 1695951991;
 	var vip = obj.result.vip;
