@@ -67,7 +67,7 @@ if ($request.url.indexOf("/api/v1/getRadical") != -1){
   }  
 }
 
-if ($request.url.indexOf("mathapi.ihuman.com/v3/get_purchase_list") != -1) {
+if ($request.url.indexOf("/get_purchase_list") != -1) {
 	var vip = obj.result.vip;
 	vip.vip_type = 1;
 }
