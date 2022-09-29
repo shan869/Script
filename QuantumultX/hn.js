@@ -17,6 +17,8 @@ QX:
 
 https:\/\/bookapi\.ihuman\.com\/(v1\/get\_user\_info|v1\/get\_purchase\_list|v1\/get\_vip\_info|v3\/get\_home\_info) url script-response-body hnsyhb.js
 
+https?:\/\/.*\.ihuman\.com\/(.+) url script-response-body https://raw.githubusercontent.com/singer1026/QuantumultX/master/hesz.js
+
 
 MITM = bookapi.ihuman.com
 
