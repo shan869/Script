@@ -1,5 +1,5 @@
 /*
-洪双2
+洪双233
 
 app 下载地址:https://t.cn/AiCEguqn
 
@@ -12,7 +12,7 @@ QQ吹牛群：316864309
 
 obj.result.service_type = "1";
 obj.result.allow_prefix = "20221230/";
-obj.result.expired_time = "1695977088";*/
+obj.result.expired_time = "1695977088";
 
 if ($request.url.indexOf("/cos/gateway/open/v2/get_credential") != -1) {
  obj.result.storage_type = "1";
