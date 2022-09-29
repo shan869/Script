@@ -85,7 +85,7 @@ if ($request.url.indexOf("/v3/get_purchase_list") != -1) {
 
 if ($request.url.indexOf("/v1/get_check_credential") != -1) {
 	var qq = obj.result["storage_type"];
- qq = "1";
+ qq = {"1"};
 /*obj.result.service_type = "1";
 obj.result.allow_prefix = "20221230/";	
 obj.result.expired_time = "1695977088";	*/
