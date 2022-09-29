@@ -10,7 +10,7 @@ QQ吹牛群：316864309
 
 9992ww
 
-/*obj.result.service_type = "1";
+obj.result.service_type = "1";
 obj.result.allow_prefix = "20221230/";
 obj.result.expired_time = "1695977088";*/
 
@@ -20,7 +20,7 @@ obj.result.service_type = "1";
 obj.result.allow_prefix = "20221230/";
 obj.result.expired_time = "1695977088";
 }
-*/
+
 
 let key2 = {"allow_guest":1};
 QX:
