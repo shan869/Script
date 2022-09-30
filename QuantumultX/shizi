@@ -84,8 +84,8 @@ var obj = {
   "message": "SUCCESS",
   "result": {
     "data": [],
-    "has_more": 0,
-    "need_read_flag": false
+    "has_more": 1,
+    "need_read_flag": true
   }
 };
   }
