@@ -1,5 +1,5 @@
 /*
-识字2
+识字3
 
 **************************/
 
@@ -8,7 +8,7 @@ var obj = {
   "code": 0,
   "result": {
     "storage_type": "1",
-    "service_type": "1",
+    "service_type": "2",
     "allow_prefix": "1/",
     "max_file_size": "100",
     "tmp_secret_id": "AKIDv4jHcsZWj6dQS4z_js-OnierfDPld0FQNohWPTcf_cG7dykkwoFiIUDqh32dnSUz",
