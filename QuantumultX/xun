@@ -43,6 +43,7 @@ for(var i = 0; i < obj.bookCfg.length; i++){
     var ob = obj.bookCfg[i];
     ob.free = 1;
   }  
+  obj.bookCfg.760009.free = 1;
 }
 
 
