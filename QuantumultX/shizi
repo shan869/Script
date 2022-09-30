@@ -127,7 +127,7 @@ var obj = {
 };
 	}
 
-if ($request.url.indexOf("v3/get_products") != -1) {
+if ($request.url.indexOf("/ios/5_7_9/config") != -1) {
 var obj = {
     "unitCfg": {
         "800192": {
