@@ -1,0 +1,79 @@
+/*
+识字555
+
+**************************/
+
+var body = JSON.parse($response.body);
+if ($request.url.indexOf("/v1/get_check_credential") != -1) {
+var obj = {
+  "code": 0,
+  "result": {
+    "storage_type": "1",
+    "service_type": "2",
+    "allow_prefix": "20230929/",
+    "max_file_size": "100",
+    "tmp_secret_id": "AKIDv4jHcsZWj6dQS4z_js-OnierfDPld0FQNohWPTcf_cG7dykkwoFiIUDqh32dnSUz",
+    "tmp_secret_key": "gYHYF0aAJA3D0e9G8SBfb1FgEatxIeLvokJcbpCweAY=",
+    "session_token": "h4ZqMzcpCV5nBdCogd57j7Ik8qZ1Enja26ededa059ffb41fa4e2aa6596d09866dBz0NTDw2lbTAMT4xeKkPsozMs_WR-scv99nnHSQHhCeNB_QYAY8Y51feBMrbE76b-GE-99gQ-Wr2b5yAXUm163IPCXVpWMLgnXSg-ZWfZsSPA6sBu2RiqcShoyfh5rKrp8p8NmIcd2PxpSW_6OYlWOwR0pUSWNYainMkpEirTrJZzJMiCcfZzE_d4pm5OL9mTvtoqUNGyWZs4532EqNudhTpzDwwOK_iziapoxFUM_zpGQuoGIXj-XrzgCTEOZs9NULkld6NVCRQ8rGcBZe-tmdCpwCjbZtZ9vmVELOgWpHJ70FzefLlluEPjmESmhcc9g9fEh7BdQCpN8uD4uP2wZa-KirbQSav7x58Snju87bMibiTIjcgMz3eYCQ-dc6C9-57S3Z4GmcotpK-q_5ZzBs71WBcFuVDQGDvQ8fopMY0xOxchW2L08vQ1t72hxoDA6Wu2VmOIkpX9SVYma62BSYpElMvczfEXNO8EO_ufjE4_rPPPRZiKkRk9o6OHOqdlDjd0Hq4I9ONdVoc7_i3c1YeE0XJk-CTz27NJmb4q3hItAEZRcdaJZ0LL5ASnZezNmnqUl0UXzGOQdStKtGZ7ENvHF_1iLH_Dw5sTtD8IILYEGNoV1dH1xVRMlCySrGeZKmemjDY-Yl2GJ_FZ0o3vqlVIAoEtx5Rbqx7JTlyUih8eLQH2WSCqi0Akp9Fcpp",
+    "start_time": "1664462912",
+    "expired_time": "1696043180",
+    "bucket_name": "common-1302652390",
+    "protocol": "https",
+    "region": "ap-beijing",
+    "domain": "myqcloud.com",
+    "base_url": "https://common-1302652390.cos.ap-beijing.myqcloud.com",
+    "server_time_zone": "GMT+08:00",
+    "cos_appid": "1302652390"
+  }
+};
+  }
+  
+if ($request.url.indexOf("/v2/get_credential") != -1) {
+var obj = {
+  "code": 0,
+  "result": [{
+    "storage_type": "1",
+    "service_type": "2",
+    "allow_prefix": "20230929/",
+    "max_file_size": "100",
+    "tmp_secret_id": "AKIDT097vro5m4YZKPpHXQGdpslcy0dL9ZCYxho9qmvFSmHS1EjhI_ePs0kXjbptA82M",
+    "tmp_secret_key": "bxfCIralA3YJJWRWlFGfI1hVzv4lIOu63D6Y0GR3XoE=",
+    "session_token": "h4ZqMzcpCV5nBdCogd57j7Ik8qZ1Enja501e68b341e5e46ce0534335cdc95e79dBz0NTDw2lbTAMT4xeKkPq65-wb2phwdCbbocQJUl8WGm_qG4Ehvg00GlBEckAqUbtmiZKUbA-bhinl0ysQ4h-Bj4keXXFrfIIIslsx-bLZsoT6A5XWivkCG-QjEFs-dQB4jU8fYU0R_91XybjNr0NvdNEh68NzSXpHrkyzzhnQDBbIGc7z9ytYK2favj2EaM0-yZq8Opm1v0359rk4H4ASLKUzLUMZUVcwKf9Fko9KiSa45RAZe4xNaCniq27YP73DNGfW7wcFZKKQ8U0S4AJWHvM1qk4OLaUieb8-Nnm4MguCQd-IuwX8eCIz1TcxszDDOJky45LYjaw6Erk4dYJ-SWXzmEASrDkUBmI6VB30VfamI4WBarfF_ueCNMuAdKOKVwxegEG8qMqHWpz9qkB9pGHTV8rNLxd_vy5Kb8CaROVO4glgQ94zKlwt8F2DR2jbCGXGt-t7n2JOjAL5dcTKNJ_QbyJu8TrWSxi4jcHFapUB6cKir5F5lCNeB-SS9N0j9aMZpxaBF9vKqhJiewjmFGp0t31xHGW81K83sl5LIl3JFxotvNzXNgvLK9JN8kyZAm8IIZv6S-XM4i6m8HAHQ0fTHaA0RNTv22IHmCmkSpctVMp7DrbLsvNhOnnyYvCWnnwu76ZaMkf8CxAOEEHs8BYzXGPkn1xeLkcdBcVpLbcYRvBNfHFy2PvNDIghc",
+    "start_time": "1664462400",
+    "expired_time": "1696043180",
+    "bucket_name": "1-ugc-1302652390",
+    "protocol": "https",
+    "region": "ap-beijing",
+    "domain": "myqcloud.com",
+    "base_url": "https://1-ugc-1302652390.cos.ap-beijing.myqcloud.com",
+    "server_time_zone": "GMT+08:00",
+    "cos_appid": "1302652390"
+  }]
+};
+  }
+
+
+if ($request.url.indexOf("/v3/get_purchase_list") != -1) {
+var obj = {
+  "code": 0,
+  "result": {
+    "_s": {
+      "sf": "ap9\/u3OqYDnyJxVQk0MjAC7hOJgXxq883lOQXVNUgHi0iCNjgwl8JueEpXveRGOUY0bgz++DWbsJF1xJe9sfy2pDkboKJT2iaJnSm4yGP7nNsrWLacJ23iE\/Fg+Kr6XLUYOy8+s0vrnELMIMBTXCP1yFevMsvPZdiknswPzUwgykuRUQvRClNTPwt1EB0dvWYysweenZCuxl9YRvlMuP+\/6ted+FLX2jMyLuZyuCthhP\/XyiEwfmuZYszlDSKurrc\/GALKIMsZmTRGEBGqVLpDh3vl4OZtRD8eh1B135yyhbYoQyVjJe9LYaYtRSr\/zc2I2tNCHcQC8ISddKaoDO7w==",
+      "sk": "EPIGN86a5bdV4zu6gQtK7pRE3L7d2Ei33QqAxhT4\/q77XWM4xdb\/7H0SgIJ3hVs+hAZFw8WVrWUcJxihZVfhcikJSU3c0+Q6vpXvI0Q8\/M4mxgXlYFZON9LBIqVVN12hHRHyi\/R6fDun2ptC8MhV6jxqJmQ8I6h9ddgiYeCXd1QUz6fcoSfjdv4ASyHJXGRVb2uobJYm7lR2oZmtzQW9KXMVOg54apWQEwDKLjlW+bNZ66slUpUfyfDb7mXDgcO9h8kEN0XAeScLw8ta2b+eAWeCp6viU9GNsYDo2vOmvHWnFGqF0F2AgnZAG8bbq\/Usw\/eXyXNzOr2v8SP3O0HAJg==",
+      "kl": "get_purchase_list,course.purchase_time,formula.purchase_time,number.purchase_time,uid,vip.expire_time,vip.vip_type"
+    },
+    "vip": {
+      "vip_type": 1,
+      "expire_time": 1696043180
+    },
+    "uid": "50850275",
+"get_purchase_list": "[\"number\",\"formula\",\"course\"]",
+    "course.purchase_time": 1664516411,
+    "formula.purchase_time": 1664516411,
+    "number.purchase_time": 1664516411
+  }
+};
+ }
+
+
+$done({ body: JSON.stringify(obj) });
