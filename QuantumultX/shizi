@@ -69,16 +69,10 @@ var obj = {
     "uid": "50850275",
     "course.purchase_time": 1696043180,
     "formula.purchase_time": 1696043180,
-    "number.purchase_time": 1696043180,
-    "get_purchase_list":
+    "number.purchase_time": 1696043180
   }
 };
  }
 
 
-
-
-
-
-  
 $done({ body: JSON.stringify(obj) });
