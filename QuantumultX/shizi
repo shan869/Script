@@ -118,7 +118,7 @@ var obj = {
 			"period_cn": "年",
 			"period_en": "year",
 			"trial_en": "",
-			"type": 1,
+			"type": 0,
 			"promotion_en": "",
 			"product_id": "com.ihuman.imath.sub.vip1y",
 			"legacy_product_id": "com.ihuman.imath.cons.vip1y"
