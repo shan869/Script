@@ -1,5 +1,5 @@
 /*
-识字4
+识字555
 
 **************************/
 
@@ -28,7 +28,7 @@ var obj = {
 };
   }
   
-if ($request.url.indexOf("/v1/get_check_credential") != -1) {
+if ($request.url.indexOf("/v2/get_credential") != -1) {
 var obj = {
   "code": 0,
   "result": [{
