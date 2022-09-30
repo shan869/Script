@@ -1,11 +1,10 @@
 /*
-识字
+识字2
 
 **************************/
 
 var body = JSON.parse($response.body);
 var obj = {
-{
   "code": 0,
   "result": {
     "storage_type": "1",
@@ -25,7 +24,6 @@ var obj = {
     "server_time_zone": "GMT+08:00",
     "cos_appid": "1302652390"
   }
-}
 };
 
 $done({ body: JSON.stringify(obj) });
