@@ -91,6 +91,7 @@ var obj = {
   }
 
 if ($request.url.indexOf("/ios/5_7_9/config") != -1) {
+var obj = {
     "bookCfg": {
         "760000": {
 	 "free": 1, 
