@@ -91,4 +91,46 @@ var obj = {
   }
 
 
+if ($request.url.indexOf("v3/get_products") != -1) {
+var obj = {
+	"code": 0,
+	"result": {
+		"math": {
+			"price": 29800,
+			"promotion_cn": "限时赠送实物礼盒",
+			"product_name": "洪恩思维永久包",
+			"product_desc": "洪恩思维永久包",
+			"promotion_en": "",
+			"show_price": 59800,
+			"product": "[\"number\",\"formula\",\"course\"] ",
+			"legacy_product_id": "com.ihuman.imath.ncons.allpack",
+			"product_id": "com.ihuman.imath.ncons.allpack",
+			"promotion": "限时赠送实物礼盒"
+		},
+		"vip": [{
+			"tsn": true,
+			"price": 19800,
+			"promotion_cn": "",
+			"product_name": "全年VIP订阅",
+			"product_desc": "全年VIP订阅",
+			"trial_cn": "",
+			"show_price": 47000,
+			"period_cn": "年",
+			"period_en": "year",
+			"trial_en": "",
+			"type": 1,
+			"promotion_en": "",
+			"product_id": "com.ihuman.imath.sub.vip1y",
+			"legacy_product_id": "com.ihuman.imath.cons.vip1y"
+		}]
+	}
+};
+	}
+
+
+
+
+
+
+
 $done({ body: JSON.stringify(obj) });
