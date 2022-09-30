@@ -1,9 +1,10 @@
 /*
-识字3
+识字4
 
 **************************/
 
 var body = JSON.parse($response.body);
+if ($request.url.indexOf("/v1/get_check_credential") != -1) {
 var obj = {
   "code": 0,
   "result": {
@@ -25,5 +26,31 @@ var obj = {
     "cos_appid": "1302652390"
   }
 };
+  }
+  
+if ($request.url.indexOf("/v1/get_check_credential") != -1) {
+var obj = {
+  "code": 0,
+  "result": [{
+    "storage_type": "0",
+    "service_type": "2",
+    "allow_prefix": "20220929/",
+    "max_file_size": "100",
+    "tmp_secret_id": "AKIDT097vro5m4YZKPpHXQGdpslcy0dL9ZCYxho9qmvFSmHS1EjhI_ePs0kXjbptA82M",
+    "tmp_secret_key": "bxfCIralA3YJJWRWlFGfI1hVzv4lIOu63D6Y0GR3XoE=",
+    "session_token": "h4ZqMzcpCV5nBdCogd57j7Ik8qZ1Enja501e68b341e5e46ce0534335cdc95e79dBz0NTDw2lbTAMT4xeKkPq65-wb2phwdCbbocQJUl8WGm_qG4Ehvg00GlBEckAqUbtmiZKUbA-bhinl0ysQ4h-Bj4keXXFrfIIIslsx-bLZsoT6A5XWivkCG-QjEFs-dQB4jU8fYU0R_91XybjNr0NvdNEh68NzSXpHrkyzzhnQDBbIGc7z9ytYK2favj2EaM0-yZq8Opm1v0359rk4H4ASLKUzLUMZUVcwKf9Fko9KiSa45RAZe4xNaCniq27YP73DNGfW7wcFZKKQ8U0S4AJWHvM1qk4OLaUieb8-Nnm4MguCQd-IuwX8eCIz1TcxszDDOJky45LYjaw6Erk4dYJ-SWXzmEASrDkUBmI6VB30VfamI4WBarfF_ueCNMuAdKOKVwxegEG8qMqHWpz9qkB9pGHTV8rNLxd_vy5Kb8CaROVO4glgQ94zKlwt8F2DR2jbCGXGt-t7n2JOjAL5dcTKNJ_QbyJu8TrWSxi4jcHFapUB6cKir5F5lCNeB-SS9N0j9aMZpxaBF9vKqhJiewjmFGp0t31xHGW81K83sl5LIl3JFxotvNzXNgvLK9JN8kyZAm8IIZv6S-XM4i6m8HAHQ0fTHaA0RNTv22IHmCmkSpctVMp7DrbLsvNhOnnyYvCWnnwu76ZaMkf8CxAOEEHs8BYzXGPkn1xeLkcdBcVpLbcYRvBNfHFy2PvNDIghc",
+    "start_time": "1664462400",
+    "expired_time": "1664466000",
+    "bucket_name": "1-ugc-1302652390",
+    "protocol": "https",
+    "region": "ap-beijing",
+    "domain": "myqcloud.com",
+    "base_url": "https://1-ugc-1302652390.cos.ap-beijing.myqcloud.com",
+    "server_time_zone": "GMT+08:00",
+    "cos_appid": "1302652390"
+  }]
+};
+  }
 
+  
 $done({ body: JSON.stringify(obj) });
