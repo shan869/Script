@@ -1,0 +1,31 @@
+/*
+识字
+
+**************************/
+
+var body = JSON.parse($response.body);
+var obj = {
+{
+  "code": 0,
+  "result": {
+    "storage_type": "1",
+    "service_type": "1",
+    "allow_prefix": "1/",
+    "max_file_size": "100",
+    "tmp_secret_id": "AKIDv4jHcsZWj6dQS4z_js-OnierfDPld0FQNohWPTcf_cG7dykkwoFiIUDqh32dnSUz",
+    "tmp_secret_key": "gYHYF0aAJA3D0e9G8SBfb1FgEatxIeLvokJcbpCweAY=",
+    "session_token": "h4ZqMzcpCV5nBdCogd57j7Ik8qZ1Enja26ededa059ffb41fa4e2aa6596d09866dBz0NTDw2lbTAMT4xeKkPsozMs_WR-scv99nnHSQHhCeNB_QYAY8Y51feBMrbE76b-GE-99gQ-Wr2b5yAXUm163IPCXVpWMLgnXSg-ZWfZsSPA6sBu2RiqcShoyfh5rKrp8p8NmIcd2PxpSW_6OYlWOwR0pUSWNYainMkpEirTrJZzJMiCcfZzE_d4pm5OL9mTvtoqUNGyWZs4532EqNudhTpzDwwOK_iziapoxFUM_zpGQuoGIXj-XrzgCTEOZs9NULkld6NVCRQ8rGcBZe-tmdCpwCjbZtZ9vmVELOgWpHJ70FzefLlluEPjmESmhcc9g9fEh7BdQCpN8uD4uP2wZa-KirbQSav7x58Snju87bMibiTIjcgMz3eYCQ-dc6C9-57S3Z4GmcotpK-q_5ZzBs71WBcFuVDQGDvQ8fopMY0xOxchW2L08vQ1t72hxoDA6Wu2VmOIkpX9SVYma62BSYpElMvczfEXNO8EO_ufjE4_rPPPRZiKkRk9o6OHOqdlDjd0Hq4I9ONdVoc7_i3c1YeE0XJk-CTz27NJmb4q3hItAEZRcdaJZ0LL5ASnZezNmnqUl0UXzGOQdStKtGZ7ENvHF_1iLH_Dw5sTtD8IILYEGNoV1dH1xVRMlCySrGeZKmemjDY-Yl2GJ_FZ0o3vqlVIAoEtx5Rbqx7JTlyUih8eLQH2WSCqi0Akp9Fcpp",
+    "start_time": "1664462912",
+    "expired_time": "1696043180",
+    "bucket_name": "common-1302652390",
+    "protocol": "https",
+    "region": "ap-beijing",
+    "domain": "myqcloud.com",
+    "base_url": "https://common-1302652390.cos.ap-beijing.myqcloud.com",
+    "server_time_zone": "GMT+08:00",
+    "cos_appid": "1302652390"
+  }
+}
+};
+
+$done({ body: JSON.stringify(obj) });
