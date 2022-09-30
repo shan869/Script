@@ -64,7 +64,10 @@ var obj = {
     },
     "vip": {
       "vip_type": 1,
-      "expire_time": 1696043180
+      "expire_time": 1696043180,
+
+"last_product_id": "com.ihuman.imath.sub.vip1y"
+
     },
     "uid": "50850275",
 "get_purchase_list": "[\"number\",\"formula\",\"course\"]",
