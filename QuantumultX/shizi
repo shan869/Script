@@ -24,8 +24,7 @@ var obj = {
             "aim_en": "Recognizing and writing 1-5
 Matching numbers 1-5", 
             "id": 10001, 
-            "n_cn": "神奇数字
-1-5", 
+            "n_cn": "神奇数字1-5", 
             "n_en": "Magic Numbers 1-5", 
             "unit": "800004,800002,800008,800012,860000,805001"
         }
