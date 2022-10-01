@@ -3,6 +3,11 @@ if ($request.url.indexOf("/v3/get_purchase_list") != -1) {
 var obj = {
   "code": 0,
   "result": {
+   "_s": {
+      "sf": "[]",
+      "sk": "[]",
+      "kl": "get_purchase_list,course.purchase_time,formula.purchase_time,number.purchase_time,uid,vip.expire_time,vip.vip_type"
+    },
     "vip": {
       "vip_type": 1,
       "expire_time": 1696043180
