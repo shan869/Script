@@ -4,8 +4,8 @@ var obj = {
   "code": 0,
   "result": {
    "_s": {
-      "sf": "[]",
-      "sk": "[]",
+      "sf": [],
+      "sk": [],
       "kl": "get_purchase_list,course.purchase_time,formula.purchase_time,number.purchase_time,uid,vip.expire_time,vip.vip_type"
     },
     "vip": {
