@@ -228,6 +228,13 @@ var obj = {
             "test": 200329, 
             "url": "https://math.ihumand.com/game/resource/resIOS/uniticon/b57af77e0de5879ac54c0fc10a96a8ce.png"
         }, 
+	        "860000": {
+		"free": 1, 
+            "book": 760000, 
+            "c": 8, 
+            "id": 860000, 
+            "name_cn": "寻找数字精灵"
+        }, 
 	        "800012": {
             "app": 665004, 
             "c": 1, 
