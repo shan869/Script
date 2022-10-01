@@ -1,5 +1,5 @@
 /*
-识字111
+识字444
 
 **************************/
 
@@ -20,8 +20,7 @@ var obj = {
 	      "free": 1, 
             "a_cn_url": "https://math.ihumand.com/game/resource/resIOS/dyname/5d3ba50288a7802950cf9e362c8fb999.mp3", 
             "a_en_url": "https://math.ihumand.com/game/resource/resIOS/dyname/4cbb279f0dda1074c5956870f463e73c.mp3", 
-            "aim": "认识1-5的字形
-体会1-5的数量含义", 
+            "aim": "认识1-5的字形体会1-5的数量含义", 
             "aim_en": "Recognizing and writing 1-5
 Matching numbers 1-5", 
             "id": 10001, 
@@ -29,7 +28,7 @@ Matching numbers 1-5",
 1-5", 
             "n_en": "Magic Numbers 1-5", 
             "unit": "800004,800002,800008,800012,860000,805001"
-        },
+        }
 	},
 
 
