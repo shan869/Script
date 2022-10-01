@@ -9,6 +9,7 @@ var obj = {
 	"code": 0,
 	"result": {
 		"status": 1
+		}
 };
 
 
