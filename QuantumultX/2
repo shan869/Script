@@ -3,11 +3,6 @@ if ($request.url.indexOf("/v3/get_purchase_list") != -1) {
 var obj = {
   "code": 0,
   "result": {
-    "_s": {
-      "sf": [],
-      "sk": "EPIGN86a5bdV4zu6gQtK7pRE3L7d2Ei33QqAxhT4\/q77XWM4xdb\/7H0SgIJ3hVs+hAZFw8WVrWUcJxihZVfhcikJSU3c0+Q6vpXvI0Q8\/M4mxgXlYFZON9LBIqVVN12hHRHyi\/R6fDun2ptC8MhV6jxqJmQ8I6h9ddgiYeCXd1QUz6fcoSfjdv4ASyHJXGRVb2uobJYm7lR2oZmtzQW9KXMVOg54apWQEwDKLjlW+bNZ66slUpUfyfDb7mXDgcO9h8kEN0XAeScLw8ta2b+eAWeCp6viU9GNsYDo2vOmvHWnFGqF0F2AgnZAG8bbq\/Usw\/eXyXNzOr2v8SP3O0HAJg==",
-      "kl": "get_purchase_list,course.purchase_time,formula.purchase_time,number.purchase_time,uid,vip.expire_time,vip.vip_type"
-    },
     "vip": {
       "vip_type": 1,
       "expire_time": 1696043180,
