@@ -1,0 +1,188 @@
+/*
+识字4445
+
+**************************/
+
+var body = JSON.parse($response.body);
+
+
+
+
+
+
+
+
+if ($request.url.indexOf("/ios/5_7_9/config") != -1) {
+var obj = {
+
+    "dyCfg": {
+            "10001": {
+	    "free": 1, 
+            "a_cn_url": "https://math.ihumand.com/game/resource/resIOS/dyname/5d3ba50288a7802950cf9e362c8fb999.mp3", 
+            "a_en_url": "https://math.ihumand.com/game/resource/resIOS/dyname/4cbb279f0dda1074c5956870f463e73c.mp3", 
+            "aim": "认识1-5的字形体会1-5的数量含义", 
+            "aim_en": "Recognizing and writing 1-5Matching numbers 1-5", 
+            "id": 10001, 
+            "n_cn": "神奇数字1-5", 
+            "n_en": "Magic Numbers 1-5", 
+            "unit": "800004,800002,800008,800012,860000,805001"
+        }
+	},
+
+
+
+
+
+
+    "unitCfg": {
+        "800192": {
+            "c": 1, 
+            "creative": 340002, 
+            "eid": "450041", 
+            "free": 1, 
+            "id": 800192, 
+            "min_version": "5.5.0", 
+            "name_cn": "大小比较", 
+            "name_en": "Comparing Big and Small Objects", 
+            "play": 300273, 
+            "sname_en": "Comparing Size", 
+            "study": 100277, 
+            "tag": 4, 
+            "test": 200383, 
+            "url": "https://math.ihumand.com/game/resource/resIOS/uniticon/c1bb03106074f620a7816b8704411907.png"
+        }, 
+        "800193": {
+            "c": 3, 
+            "creative": 340001, 
+            "eid": "450072", 
+            "free": 1, 
+            "id": 800193, 
+            "min_version": "5.5.0", 
+            "name_cn": "图形组合（一）", 
+            "name_en": "Combining Shapes (One)", 
+            "play": 300272, 
+            "sname_en": "Combining Shapes - 1", 
+            "study": 100268, 
+            "tag": 3, 
+            "test": 200381, 
+            "url": "https://math.ihumand.com/game/resource/resIOS/uniticon/2669e9fec8fe286dbc7f1e19fa789800.png"
+        }, 
+        "800194": {
+            "c": 4, 
+            "creative": 340007, 
+            "eid": "450015", 
+            "free": 1, 
+            "id": 800194, 
+            "min_version": "5.5.0", 
+            "name_cn": "颜色变化规律", 
+            "name_en": "Graphical Reasoning with Colors", 
+            "play": 300192, 
+            "sname_en": "Reasoning Colors", 
+            "study": 100267, 
+            "tag": 1, 
+            "test": 200377, 
+            "url": "https://math.ihumand.com/game/resource/resIOS/uniticon/a0976616e63a4e96537853ef4de9e4cf.png"
+        }, 
+	        "800002": {
+            "app": 660001, 
+            "c": 1, 
+            "eid": "450004", 
+	       "free": 1, 
+            "id": 800002, 
+            "mid": "800158", 
+            "min_version": "4.7.0", 
+            "name_cn": "1-5认一认", 
+            "name_en": "Recognizing Numbers 1 to 5", 
+            "play": 300004, 
+            "sname_en": "Numbers 1-5", 
+            "study": 100239, 
+            "sum": 670001, 
+            "test": 200326, 
+            "url": "https://math.ihumand.com/game/resource/resIOS/uniticon/020dbf4d7e8c0c5c090b9a2e0294f1a0.png"
+        }, 
+        "800004": {
+            "app": 660002, 
+            "c": 1, 
+            "eid": "450002", 
+	       "free": 1, 
+            "id": 800004, 
+            "mid": "800156", 
+            "min_version": "4.7.0", 
+            "name_cn": "1-5数一数", 
+            "name_en": "Counting Objects 1 to 5", 
+            "play": 300256, 
+            "sname_en": "Counting Objects 1-5", 
+            "study": 100237, 
+            "sum": 670002, 
+            "test": 200328, 
+            "url": "https://math.ihumand.com/game/resource/resIOS/uniticon/c122efdd898bbf6b2172717c9631d5ce.png"
+        }, 
+	        "800008": {
+            "app": 660003, 
+            "c": 1, 
+            "eid": "450007", 
+	       "free": 1, 
+            "id": 800008, 
+            "min_version": "4.7.0", 
+            "name_cn": "1-5数物对应", 
+            "name_en": "Matching Numbers 1 to 5", 
+            "play": 300262, 
+            "sname_en": "Matching Numbers 1-5", 
+            "study": 100246, 
+            "sum": 670003, 
+            "test": 200329, 
+            "url": "https://math.ihumand.com/game/resource/resIOS/uniticon/b57af77e0de5879ac54c0fc10a96a8ce.png"
+        }, 
+	   
+	        "800012": {
+            "app": 665004, 
+            "c": 1, 
+            "eid": "450091", 
+	       "free": 1, 
+            "id": 800012, 
+            "min_version": "4.7.0", 
+            "name_cn": "1-5按数取物", 
+            "name_en": "Collecting Objects 1 to 5 ", 
+            "play": 300271, 
+            "sname_en": "Collecting Objects 1-5", 
+            "study": 100266, 
+            "sum": 670004, 
+            "test": 200382, 
+            "url": "https://math.ihumand.com/game/resource/resIOS/uniticon/7448b71242aa56fcb9d2d4714cbf306a.png"
+        }, 
+        "800301": {
+            "app": 665037, 
+            "c": 4, 
+            "eid": "450141", 
+			"free": 1, 
+            "id": 800301, 
+            "min_version": "5.1.0", 
+            "name_cn": "对照拼图", 
+            "name_en": "Picture Match", 
+            "play": 300265, 
+            "sname_en": "Picture Match", 
+            "study": 100254, 
+            "sum": 670068, 
+            "test": 200379, 
+            "url": "https://math.ihumand.com/game/resource/resIOS/uniticon/34be6b3e6c2edc34fdc33c05f84dd9a2.png"
+        }, 
+	
+	     "860000": {
+		"free": 1, 
+            "book": 760000, 
+            "c": 8, 
+            "id": 860000, 
+            "name_cn": "寻找数字精灵"
+        }, 
+	
+	
+	
+        }
+    };
+    
+     }
+
+
+
+
+$done({ body: JSON.stringify(obj) });
