@@ -64,12 +64,124 @@ var obj = {
 
 
 
-/*
+
 if ($request.url.indexOf(path3) != -1){
 var obj = {
+  "code": 0,
+  "message": "请求成功",
+  "result": {
+    "info": [{
+      "payments": 45,
+      "cn": {
+        "period": "2年",
+        "trial": "",
+        "price": 24800,
+        "description": "两年畅读VIP",
+        "tips": "",
+        "sub_title": ""
+      },
+      "en": {
+        "period": "annual",
+        "trial": "",
+        "price": 3799,
+        "description": "2 Year Deal",
+        "tips": "",
+        "sub_title": ""
+      },
+      "tc": {
+        "period": "2年",
+        "trial": "",
+        "price": 24800,
+        "description": "兩年暢讀VIP",
+        "tips": "",
+        "sub_title": ""
+      },
+      "type": 2,
+      "product_id": "com.ihuman.book.cons.vip2y.1",
+      "origin_rate": 0,
+      "allow_guest": 0,
+      "pid_qr": "com.ihuman.book.cons.vip2y",
+      "vip_type": "TWO_YEAD"
+    }, {
+      "payments": 45,
+      "cn": {
+        "period": "年",
+        "trial": "7天",
+        "price": 16800,
+        "description": "连续包年",
+        "tips": "新用户可享受[PERIOD]的免费试用，之后会按照[PRICE_WITH_UNIT]自动续费",
+        "sub_title": ""
+      },
+      "en": {
+        "period": "year",
+        "trial": "7 day",
+        "price": 2999,
+        "description": "Annual",
+        "tips": "Start your [PERIOD] free trial. Then [PRICE_WITH_UNIT].",
+        "sub_title": ""
+      },
+      "tc": {
+        "period": "年",
+        "trial": "7天",
+        "price": 16800,
+        "description": "連續包年",
+        "tips": "新用戶可享受[PERIOD]的免費試用，之後會按照[PRICE_WITH_UNIT]自動續費",
+        "sub_title": ""
+      },
+      "type": 1,
+      "product_id": "com.ihuman.book.sub.vip1y",
+      "origin_rate": 0,
+      "allow_guest": 0,
+      "pid_qr": "com.ihuman.book.cons.vip1y",
+      "vip_type": "YEAD"
+    }, {
+      "payments": 45,
+      "cn": {
+        "period": "月",
+        "trial": "3天",
+        "price": 1800,
+        "description": "连续包月",
+        "tips": "",
+        "sub_title": "【新用户免费试用3天】"
+      },
+      "en": {
+        "period": "month",
+        "trial": "3 day",
+        "price": 399,
+        "description": "Monthly",
+        "tips": "",
+        "sub_title": "Free 3-day trial"
+      },
+      "tc": {
+        "period": "月",
+        "trial": "3天",
+        "price": 1800,
+        "description": "連續包月",
+        "tips": "",
+        "sub_title": "【新用戶免費試用3天】"
+      },
+      "type": 1,
+      "product_id": "com.ihuman.book.sub.vip1m.trial1w",
+      "origin_rate": 0,
+      "allow_guest": 0,
+      "pid_qr": "com.ihuman.book.cons.vip1m",
+      "vip_type": "MONTH"
+    }],
+    "vip_status": {
+    "vip_type": 1,
+        "expire_time": 1664900557,
+        "last_product_id": "com.ihuman.book.sub.vip1m.trial1w",
+        "pack_list": []
+    },
+    "allow_guest": 0
+  }
+};
+
+
+
 }
 
-*/
+
 
 
 
