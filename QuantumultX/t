@@ -1,0 +1,78 @@
+var body = JSON.parse($response.body);
+const path1 = "/v1/get_purchase_list";
+const path2 = "/v1/get_user_info";
+const path3 = "/v1/get_vip_info";
+if ($request.url.indexOf(path1) != -1){
+var obj = {
+  "code": 0,
+  "message": "请求成功",
+  "result": {
+    "uid": "50850275",
+    "_s": {
+      "sf": "nDRgjdJNcLXEI6dlo5ULCXAW7uJsDKBa5yBm9dTzzxImsabsdWu7ruQxB204WOusoutq4vgvO318Z6/MkAaw4B7SezvPzGeXjmJPXf8J0zSVCAKhpfouVGiFFrm/lRkImAS9gUs/Hx9l5Q1ul2cdADIZddUz25SABLBO4HK1Ow2TrhyQHMqjc/ildG7PGTOy4p7yEcBOGxl1JAY02WJR8tK1b4Q751o8c3By3Gwrjzqj84beGDhDyZoFlHu3loSRF0MHde+9taepnCGrB9YPxF6fNEeFAH/feV5dMIgALH+IwHyTzIgwZmZ4ap8/DoWRSBjAEtWeoRC3BXzk43uxdw==",
+      "kl": "get_purchase_list,uid,book_ids,vip_status.expire_time,vip_status.vip_type,vip_status.pack_list",
+      "sk": "Bbtgmms65WWeOTiFL3hqsoV5dCaaUJiXHb7/FhYJFSPKfAmCrcj/ifc6Q382Ew3wWl0CGZeSgtVGrMsjiSW2Omj/f4RgoGMOVP0OAxmn64KNXYlaqhyNXqepgFiOZ075/hX4OhDeaUd+2i2wKbndMLMy9+rk19/pB1BJYkYyuBwjr5yGtgPySxnsNN+gDE6EzIL8tTTUs4DOQ9i+zvVS86lRPOzRzGkFiaoA9bb0Mnr80ltDV/luBJ4qkt/He0amji5NTto3b/xyZbJ2rH38aP7XQ+LlZJc9VcJrE6YJ6UiXeH6+OXlL0mVPMtmoYYg4O3iDLDq4GRDOeq+KsgkI0A=="
+    },
+    "book_ids": [],
+    "vip_status": {
+      "vip_type": 1,
+      "expire_time": 1664900557,
+      "last_product_id": "com.ihuman.book.sub.vip1m.trial1w",
+      "pack_list": []
+    }
+  }
+};
+}
+
+if ($request.url.indexOf(path2) != -1){
+var obj = {
+  "code": 0,
+  "message": "请求成功",
+  "result": {
+    "_s": {
+      "sf": "M27HtgZVsfoyuun/tCevhFN+Odr5nh5/DCyD7Q7MIzFY2QnEA1CuawsypfwKFIp2chTdBwVbyeOqZGy9yWvROGDn6hi50jZEeQezv6gd8q6La91D3TVfzS2ezrsQRayS7HG5FvNt8bcw8fkHUnQoyvwRIlW70Y17Y2OaRh0LjEiqgr6fMJtd2TwzJFZfHvcozFq01JWN5k1q2B8/UMfUTodkE4cqt1qLbipgipWjVsOwJt5HmtH45FPvlJsvAPpItB2uJqTgoM1Lgr0ZW55sJ74M30/xw0DGXtjNSatfPGBeU4egK91Qbt/ob2L/UPsYZHDV60/giQO/lq23k+eCtg==",
+      "kl": "get_user_info,userinfo.uid,userinfo.vip_status.expire_time,userinfo.vip_status.vip_type,userinfo.vip_status.pack_list",
+      "sk": "UyoC7MXd0vitS4lagGpWkIew9TCc9lqJ481RGpQ4oD665/XZOpm1iUoZw2CBLbZoV6iZoo6hawq/FKBCA3jbrP7egv0aULEbxweZK/MvhVF9uoJ4TKp437C+D0k5AQ6jF84toYXkL2lZK2gVtpsAtAiH+/viYcuBu90fixQJ+sOMmyJfcvQjIRzXewKwfUF2fQjoRx+13P+bga0Wr6lGvi04/+zwL/gFT6fHyYeYS2vP8MzgR8D6p8iUtQDy++TQ73vCoRaP2o0Ick4YicPSsBRA7hjm/tX4zVCGVQKaPzGFya06mIl2Zmv8p3axdiYk/Gc5Ud/jh0YfQ+m15evsUQ=="
+    },
+    "userinfo": {
+      "uid": "50850275",
+      "mobile": "13560318314",
+      "token": {
+        "uid": "50850275",
+        "token": "/Bm3s6qBpP1XxU5+XAWN88Iknk0ooxGJuXmKXDbTubk=",
+        "expire": 1695783294592000
+      },
+      "status": 1,
+      "avatar": "",
+      "nickname": "",
+      "gender": 0,
+      "birthday": 0,
+      "coin": "0",
+      "vip_status": {
+        "vip_type": 1,
+        "expire_time": 1664900557,
+        "last_product_id": "com.ihuman.book.sub.vip1m.trial1w",
+        "pack_list": []
+      },
+      "ios_sync": 1,
+      "create_ts": 1664017048,
+      "coupons": {}
+    }
+  }
+};
+}
+
+
+
+/*
+if ($request.url.indexOf(path3) != -1){
+var obj = {
+}
+
+*/
+
+
+
+
+
+$done({ body: JSON.stringify(obj) });
