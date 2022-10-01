@@ -5,15 +5,14 @@ var obj = {
   "result": {
     "vip": {
       "vip_type": 1,
-      "expire_time": 1696043180,
-"last_product_id": "com.ihuman.imath.sub.vip1y"
+      "expire_time": 1696043180
 
     },
     "uid": "50850275",
 "get_purchase_list": "[\"number\",\"formula\",\"course\"]",
-    "course.purchase_time": 1664516411,
-    "formula.purchase_time": 1664516411,
-    "number.purchase_time": 1664516411
+    "course.purchase_time": 1696043180,
+    "formula.purchase_time": 1696043180,
+    "number.purchase_time": 1696043180
   }
 };
  }
