@@ -1,5 +1,5 @@
 var body = JSON.parse($response.body);
-if ($request.url.indexOf("api/getidiomlist") != -1){
+if ($request.url.indexOf("/api/getidiomlist") != -1){
 var obj = {
     "code": 0, 
     "seasons": [
