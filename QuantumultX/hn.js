@@ -78,7 +78,7 @@ if ($request.url.indexOf("/api/v1/getRadical") != -1){
   var list = obj.result;
   for (var i = 0; i < list.length; i++) {
     var item = list[i];
-    item["isvip"] = "0";
+    item["isvip"] = 0;
   }  
 }
 
