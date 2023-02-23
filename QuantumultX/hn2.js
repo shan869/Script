@@ -73,7 +73,7 @@ for(var i = 0; i < obj.result.books_all.length; i++){
 	
 }
 if ($request.url.indexOf(path5) != -1){
-   obj.result.bookInfos["book_id"] = "0011";
+   obj.result.bookInfos["book_id"] = 0011;
 }
 
 
