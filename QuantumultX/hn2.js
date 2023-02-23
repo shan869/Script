@@ -1,4 +1,4 @@
-const path5 = "/v1/home";
+const path5 = "/v1/home/books";
 
 let obj = JSON.parse($response.body);
 
