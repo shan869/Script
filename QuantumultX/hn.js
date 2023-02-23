@@ -40,7 +40,7 @@ const path1 = "/v1/get_purchase_list";
 const path2 = "/v1/get_user_info";
 const path3 = "/v1/get_vip_info";
 const path4 = "/v3/get_home_info";
-const path5 = "/v1/home";
+const path5 = "/v1/home?appversion";
 let key = {"vip_type":1,"expire_time":1664532960,"last_product_id":"com.ihuman.book.sub.vip1m.trial1w","pack_list":[]};
 
 
