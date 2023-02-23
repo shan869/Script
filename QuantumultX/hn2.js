@@ -75,7 +75,7 @@ for(var i = 0; i < obj.result.books_all.length; i++){
 if ($request.url.indexOf(path5) != -1){
 	for(var i = 0; i < obj.result.bookInfos.length; i++){
     var ob = obj.result.bookInfos[i];
-       ob["book_id"] = 0011;
+       ob["book_id"] = "0011";
 }
 }
 
