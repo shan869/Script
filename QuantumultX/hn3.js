@@ -1,4 +1,4 @@
-const path5 = "/v1/home?appversion";
+const path5 = "/v1/home/books";
 
 if ($request.url.indexOf(path5) !== -1) {
   let body = $response.body;
