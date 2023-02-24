@@ -1,9 +1,8 @@
-const path1 = "/v3/get_msg";
+const path1 = "/kffk/sdk";
 const path2 = "/v1/get_user_info";
 
-
-
 if ($request.url.indexOf(path1) != -1){
-	var modifiedJson = $response.body.replace(/"has_more":\s*0/, "\"has_more\": 1").replace(/"need_read_flag":\s*false/, "\"need_read_flag\": true");
+	let body = JSON.parse($response.body);
+    body.result.hasnew = 1;
 }
-$done({body: modifiedJson});
+$done({body: JSON.stringify(body)});
