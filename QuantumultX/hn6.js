@@ -1,6 +1,6 @@
 const path1 = "/v3/get_msg";
-if ($request.url.indexOf(path1) != -1){
 var body = JSON.parse($response.body);
+if ($request.url.indexOf(path1) != -1){
 var obj = {
   "code": 0,
   "message": "SUCCESS",
@@ -10,5 +10,7 @@ var obj = {
     "need_read_flag": false
   }
 };
-$done({ body: JSON.stringify(obj) });
+
   }
+
+$done({ body: JSON.stringify(obj) });
