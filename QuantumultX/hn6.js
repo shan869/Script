@@ -1,16 +1,15 @@
-const path1 = "/v3/get_msg";
-var body = JSON.parse($response.body);
+const path1 = "/v1/config/resource_position";
+const path2 = "/v1/get_user_info";
+const path3 = "/v1/get_vip_info";
+const path4 = "/v3/get_home_info";
+const path5 = "/v1/home?appversion";
+
+
+let obj = JSON.parse($response.body);
+
+
 if ($request.url.indexOf(path1) != -1){
-var obj = {
-  "code": 0,
-  "message": "SUCCESS",
-  "result": {
-    "data": [],
-    "has_more": 0,
-    "need_read_flag": false
-  }
-};
-
-  }
-
-$done({ body: JSON.stringify(obj) });
+   obj.result.show_off = false
+}
+	
+$done({body: JSON.stringify(obj)});
