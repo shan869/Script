@@ -1,4 +1,4 @@
-const paths = ["/flash/accountInit", "/v1/get_user_info"];
+const paths = ["/v3/get_msg"];
 
 if (paths.includes($request.url)) {
   const { body } = $response;
