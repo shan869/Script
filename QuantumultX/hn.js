@@ -34,8 +34,7 @@ https?:\/\/.*\.ihuman\.com\/(.+) url script-response-body https://raw.githubuser
 
 MITM = bookapi.ihuman.com
 
-*/
-/*
+////////////////////////////
 const path1 = "/v1/get_purchase_list";
 const path2 = "/v1/get_user_info";
 const path3 = "/v1/get_vip_info";
